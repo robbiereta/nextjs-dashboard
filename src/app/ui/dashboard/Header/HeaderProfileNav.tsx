@@ -52,7 +52,7 @@ export default function HeaderProfileNav() {
               fill
               sizes="32px"
               className="rounded-circle"
-              src="/assets/img/avatars/8.jpg"
+              src="/assets/img/avatars/10.jpg"
               alt="user@email.com"
             />
           </div>
