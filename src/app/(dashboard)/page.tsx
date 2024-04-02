@@ -42,7 +42,14 @@ import TrafficChart from '@/components/Dashboard/TrafficChart'
 
 export default function Page() {
   return (
-    <>
+    <>  
+      <div className="row">
+        <div className="col-md-12">
+          <Card>
+            <CardHeader>
+              Traffic &amp; Sales
+            </CardHeader>
+            <CardBody>
               <div className="table-responsive">
                 <table className="table border mb-0">
                   <thead className="table-light fw-semibold">
@@ -50,6 +57,7 @@ export default function Page() {
                       <th className="text-center" aria-label="icon">
                         <FontAwesomeIcon icon={faUsers} fixedWidth />
                       </th>
+                      <th>User</th>
                       <th>Usage</th>
                       <th className="text-center">Payment Method</th>
                       <th>Activity</th>
@@ -60,6 +68,13 @@ export default function Page() {
                     <tr className="align-middle">
                       <td className="text-center">
                         <div className="avatar avatar-md d-inline-flex position-relative">
+                          <Image
+                            fill
+                            sizes="40px"
+                            className="rounded-circle"
+                            src="/assets/img/avatars/1.jpg"
+                            alt="user@email.com"
+                          />
                           <span
                             className="avatar-status position-absolute d-block bottom-0 end-0 bg-success rounded-circle border border-white"
                           />

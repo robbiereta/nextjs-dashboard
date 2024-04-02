@@ -52,7 +52,7 @@ export default function HeaderProfileNav() {
               fill
               sizes="32px"
               className="rounded-circle"
-              src="/assets/img/avatars/10.jpg"
+              src="/assets/favicons/android-icon-192x192.png"
               alt="user@email.com"
             />
           </div>
